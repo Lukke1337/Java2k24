@@ -34,27 +34,27 @@ public class MainProgram {
          * posiada słowo Sprzedam w tytule
          * a i rocznik samochodu nie może być przed rokiem 2000
          */
-//        searchSettings.setDateFrom(LocalDate.now().minusDays(10));
-//        searchSettings.setMilleageTo(200000);
-//        searchSettings.setPriceFrom(10000.0);
-//        searchSettings.setPriceTo(16000.0);
-//        searchSettings.setWord("Sprzedam");
-//        searchSettings.setYearFrom(2000);
+        searchSettings.setDateFrom(LocalDate.now().minusDays(10));
+        searchSettings.setMilleageTo(200000);
+        searchSettings.setPriceFrom(10000.0);
+        searchSettings.setPriceTo(16000.0);
+        searchSettings.setWord("Sprzedam");
+        searchSettings.setYearFrom(2000);
 
         /**
          * Utwórz klasę SearchByYearFilter,
          * która będzie filtrować liste po roczniku auta
          */
 
-//        SearchByYearFilter yearFilter = new SearchByYearFilter();
+        SearchByYearFilter yearFilter = new SearchByYearFilter();
 
         /**
          * Tej klasie przekazemy obiekt z kreteriami wyszukiwania,
          * oraz listę ogłoszen samochodowych
          */
 
-//        yearFilter.setCarOffers(cars);
-//        yearFilter.setSearchSettings(searchSettings);
+        yearFilter.setCarOffers(cars);
+        yearFilter.setSearchSettings(searchSettings);
 
         /**
          * dodaj metody:

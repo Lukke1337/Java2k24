@@ -5,5 +5,9 @@ public class SearchByWordfilter implements Filter {
     public void setSearchSettings(){
     }
 
-    public void
+    @Override
+    public void setSearchSettings(SearchSettings settings) {
+
+    }
+
 }

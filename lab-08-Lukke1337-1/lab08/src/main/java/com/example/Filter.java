@@ -1,5 +1,5 @@
 package com.example;
 
 public interface Filter {
-    void setSearchSettings(SearchSettings settings)
+    void setSearchSettings(SearchSettings settings);
 }
